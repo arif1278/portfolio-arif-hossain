@@ -1,0 +1,52 @@
+/*Nav Styles */
+/*alt + shift + F  for aling er jonno*/
+.bbh-sans-bogle-regular {
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*shared style*/
+.text-primary{
+    color: #FF4F0F;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.dark-2{
+    color: #393232;
+}
+.btn-primary{
+    background-color: #FF4F0F;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 16px 34px;
+    border-radius: 5px;
+}
